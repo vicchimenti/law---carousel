@@ -1,0 +1,22 @@
+/* ***  X Large min Defaults   *** */
+@media only screen and (max-width : 1199.99px) {}
+
+
+/* ***  Large min Defaults   *** */
+@media only screen and (max-width : 991.99px) {}
+
+
+/* ***  Medium min Defaults   *** */
+@media only screen and (max-width : 767.99px) {}
+
+
+/* ***  X Large min Defaults   *** */
+@media only screen and (min-width : 1200px) {}
+
+
+/* ***  Large min Defaults   *** */
+@media only screen and (min-width : 992px) {}
+
+
+/* ***  Medium min Defaults   *** */
+@media only screen and (min-width : 768px) {}
