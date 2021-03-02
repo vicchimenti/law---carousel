@@ -1,6 +1,6 @@
 /***
  *      @author Victor Chimenti, MSCS-SE '20
- *      @file image-panel-text-html.js
+ *      @file carousel-text-html.js
  *      @see Seattle University School of Law Image Panel Content Type
  *      law/text/html
  *
