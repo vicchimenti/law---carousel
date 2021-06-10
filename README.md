@@ -4,4 +4,8 @@ Carousel Content Type
 
 ## Todo
 
-- [] add controls
+- [x] add controls
+
+### Notes
+
+Indicators will require programmable layout to handle logic for number of carousels
