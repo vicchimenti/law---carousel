@@ -5,6 +5,7 @@ Carousel Content Type
 ## Todo
 
 - [x] add controls
+- [] create carousel spotlight
 
 ### Notes
 
