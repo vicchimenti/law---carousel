@@ -1,7 +1,7 @@
-<div class="infographicWrapper carousel-item" id="id<t4 type='meta' meta='content_id' />">
-  <p>This is the law/carousel layout.</p>
-  <t4 type="content" name="Infographic Title" output="selective-output" process-format="true" format='<div class="infographicTitle standardContent"><h2 id="label<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />">$value</h2></div>' />
-  <div class="infographic">
+<div class="infographicWrapper card carousel-item" id="id<t4 type='meta' meta='content_id' />">
+  <t4 type="content" name="Infographic Title" output="selective-output" process-format="true" format='<div class="infographicTitle card-header standardContent"><h3 id="label<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />">$value</h3></div>' />
+
+  <div class="infographic card-body">
     <div class="infographicItem color<t4 type='content' name='Statistic 1 Color Combination' output='normal' display_field='value' /> col-xs-12<t4 type='content' name='Statistic 2 Heading' output='selective-output' modifiers='striptags,htmlentities' format=' col-sm-6' /><t4 type='content' name='Statistic 3 Heading' output='selective-output' modifiers='striptags,htmlentities' format=' col-sm-4' />">
       <t4 type="content" name="Icon 1" output="selective-output" process-format="true" format="<div class=&quot;infographicItemIcon&quot;><span class=&quot;fa  <t4 type='content' name='Statistic 1 Icon' output='normal' display_field='value' />&quot; aria-hidden=&quot;true&quot;></span></div>" />
       <t4 type="content" name="Statistic 1 Number" output="selective-output" modifiers="striptags,htmlentities" format="<div class=&quot;infographicItemNumber&quot;>$value</div>" />
@@ -24,7 +24,8 @@
     <t4 type="content" name="Statistic 3 Heading" output="selective-output" process-format="true" format="</div>" />
     <div class="clearfix"></div>
   </div>
+
   <div class="clearfix"></div>
-    <t4 type="content" name="Summary Text" output="selective-output" modifiers="medialibrary,nav_sections" process-format="true" format="<div class=&quot;infographicSummary standardContent&quot;>$value</div>" />
+    <t4 type="content" name="Summary Text" output="selective-output" modifiers="medialibrary,nav_sections" process-format="true" format="<div class=&quot;infographicSummary card-footer standardContent&quot;>$value</div>" />
   <div class="clearfix"></div>
 </div>
