@@ -1,31 +1,7 @@
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-
 <script>
-  $(document).ready(function () {
-    //Relocating script elements
-    $("body").append($("#carousel script"));
 
-    //Setting autoplay speed (defaults to 9 seconds)
-    slideTime = 0 ; // Add slide time t4 tag here
-    slideTime = slideTime*1000;
-    if(slideTime == 0) {
-        slideTime = 9000
-    }
-
-    //Activating carousel
-    $("#carousel").slick({
-        accessibility: true,
-        arrows: true,
-        autoplay: ("Yes" == '<t4 type="content" name="Autoplay" output="normal" display_field="name" />'),
-        autoplaySpeed: slideTime,
-        speed: 600,
-        infinite: true,
-        adaptiveHeight: ("Yes" != '<t4 type="content" name="Fixed Height" output="normal" display_field="name" />'),
-        dots: ("Yes" == '<t4 type="content" name="Dots" output="normal" display_field="name" />')
+    $( window ).on( "load", function() {
+        $( ".carousel-inner .carousel-item" ).first().addClass( "active" );
     });
 
-    //Removing margin from contained elements 
-    $("#carousel .slick-slide").css('margin', '0px');
-
-    });
 </script>
